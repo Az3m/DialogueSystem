@@ -1,0 +1,67 @@
+[
+    {
+        "ID": "Jack",
+        "Dialogues": [
+            {
+                "title": "Greetings",
+                "options": [
+                    {
+                        "text":"What do you sell?",
+                        "m_DialogueAction": "OpenShop"
+                    },
+                    {
+                        "text":"Prepare to die!",
+                        "m_DialogueAction":"StartCombat"
+                    },
+                    {
+                        "text":"Can I speak with Rose?",
+                        "m_DialogueAction":"ChangeNPC"
+                    },
+                    {
+                        "text":"Goodbye.",
+                        "m_DialogueAction":"EndDialogue"
+                    }
+                ]
+            },
+            {
+                "title":"Welcome to the shop!",
+                "options":[
+                    {
+                       "text":"Sword: 100 gold",
+                       "m_DialogueAction":"Continue" 
+                    },
+                    {
+                        "text":"Shield: 50 gold",
+                        "m_DialogueAction":"Continue"
+                    },
+                    {
+                        "text":"Bow: 75 gold",
+                        "m_DialogueAction":"Continue"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ID":"Rose",
+        "Dialogues":[
+            {
+                "title":"Hello!",
+                "options":[
+                    {
+                        "text":"What's new?",
+                        "m_DialogueAction":"Continue"
+                    },
+                    {
+                        "text":"Let's fight!",
+                        "m_DialogueAction":"StartCombat"
+                    },
+                    {
+                        "text":"Goodbye.",
+                        "m_DialogueAction":"EndDialogue"
+                    }
+                ]
+            }
+        ]
+    }
+]
