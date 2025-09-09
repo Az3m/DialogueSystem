@@ -1,0 +1,11 @@
+NPCID, Title     , OptionText            , Action
+Jack , Greetings!, What do you sell?     , OpenShop
+Jack , Greetings!, Prepare to die!       , StartCombat
+Jack , Greetings!, Can I speak with Rose?, ChangeNPC
+Jack , Greetings!, Goodbye.              , EndDialogue
+Jack , Welcome to the shop!, Sword: 100 gold, Continue
+Jack , Welcome to the shop!, Shield: 50 gold, Continue
+Jack , Welcome to the shop!, Bow: 75 gold, Continue
+Rose , Hello!    , What's new?           , Continue
+Rose , Hello!    , Let's fight!          , StartCombat
+Rose , Hello!    , Goodbye.              , EndDialogue

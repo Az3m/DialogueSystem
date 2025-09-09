@@ -1,0 +1,43 @@
+{
+    "ID": "Jack",
+    "Dialogues": [
+        {
+            "title": "Greetings",
+            "options": [
+                {
+                    "text": "What do you sell?",
+                    "m_DialogueAction": "OpenShop"
+                },
+                {
+                    "text": "Prepare to die!",
+                    "m_DialogueAction": "StartCombat"
+                },
+                {
+                    "text": "Can I speak with Rose?",
+                    "m_DialogueAction": "ChangeNPC"
+                },
+                {
+                    "text": "Goodbye.",
+                    "m_DialogueAction": "EndDialogue"
+                }
+            ]
+        },
+        {
+            "title": "Welcome to the shop!",
+            "options": [
+                {
+                    "text": "Sword: 100 gold",
+                    "m_DialogueAction": "Continue"
+                },
+                {
+                    "text": "Shield: 50 gold",
+                    "m_DialogueAction": "Continue"
+                },
+                {
+                    "text": "Bow: 75 gold",
+                    "m_DialogueAction": "Continue"
+                }
+            ]
+        }
+    ]
+}
